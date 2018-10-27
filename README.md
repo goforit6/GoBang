@@ -1,4 +1,4 @@
-# GoBang
+# 五子棋
 Written in Python
 
-If there is any issue, please let me know. Thanks!
+If there is any issues, please let me know. Thanks!
