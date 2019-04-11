@@ -34,7 +34,7 @@ def draw_button():
     x1, y1, x2, y2 = get_four_port()
     x = x2 + 20
     chocolate = (210, 105, 30)
-    start = pause = end = again = regret = pygame.font.Font('./msyh.ttf', 30)
+    start = pause = end = again = regret = pygame.font.Font('./simkai.ttf', 30)
     start_img = start.render('继续播放', True, chocolate)
     screen.blit(start_img, (x, interval*2))
     pause_img = pause.render('暂停音乐', True, chocolate)
@@ -98,7 +98,7 @@ def who_win_action(who):
     global lis
     global win_img
     lis = []  # 锁定棋盘
-    win = pygame.font.Font('./msyh.ttf', 40)
+    win = pygame.font.Font('./simkai.ttf', 40)
     win_img = win.render('%s获胜' % who, True, (255, 0, 0))
     sound = pygame.mixer.Sound('./{}.ogg'.format(who).encode())
     sound.play()
